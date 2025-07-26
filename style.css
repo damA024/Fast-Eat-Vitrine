@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(to bottom, #ff851b, #ffae68);
+  color: white;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 7em;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  margin-top: 70px;
+  height: 1.2em;
+}
+
+.slogan {
+  font-size: 3em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+.logo .mon-logo {
+  width: 300px;
+  max-width: 90vw;
+  height: auto;
+  display: block;
+  margin: 70px auto;
+}
+.coming-soon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  width: fit-content;
+  margin: 0 auto; /* pour centrer horizontalement */
+  border-radius: 20px; /* optionnel : coins arrondis pour le style */
+}
+.coming-soon {
+  font-family: "Poppins", sans-serif;
+  font-size: 2em;
+  margin-top: 20px;
+  font-weight: 600;
+  margin: 10px 20px;
+  color: #ff851b;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  .slogan {
+    font-size: 1.5em;
+  }
+
+  .logo .mon-logo {
+    width: 200px;
+    margin: 40px auto;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2.5em;
+  }
+
+  .slogan {
+    font-size: 1.2em;
+  }
+
+  .logo .mon-logo {
+    width: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .coming-soon {
+    font-size: 1.2em;
+  }
+}
