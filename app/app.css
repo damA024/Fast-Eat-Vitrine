@@ -19,7 +19,6 @@ h1 {
   font-size: 7em;
   font-family: "Poppins", sans-serif;
   margin: 0;
-  margin-top: 70px;
   height: 1.2em;
 }
 
@@ -37,27 +36,16 @@ h1 {
   display: block;
   margin: 70px auto;
 }
-.coming-soon-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #fff;
-  width: fit-content;
-  margin: 0 auto; /* pour centrer horizontalement */
-  border-radius: 20px; /* optionnel : coins arrondis pour le style */
-}
-.coming-soon {
-  font-family: "Poppins", sans-serif;
-  font-size: 2em;
-  margin-top: 20px;
-  font-weight: 600;
-  margin: 10px 20px;
-  color: #ff851b;
-}
 
-p {
-  font-size: 1.3em;
-  margin: 10px 0;
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin: 0 auto;
+}
+img {
+  width: 400px;
+  height: auto;
 }
 
 @media (max-width: 768px) {
@@ -73,6 +61,12 @@ p {
     width: 200px;
     margin: 40px auto;
   }
+  img {
+    width: 300px;
+    margin-bottom: 15px;
+
+    height: auto;
+  }
 }
 
 @media (max-width: 480px) {
@@ -86,6 +80,11 @@ p {
 
   .logo .mon-logo {
     width: 150px;
+  }
+  img {
+    width: 220px;
+    margin-bottom: 15px;
+    height: auto;
   }
 }
 
